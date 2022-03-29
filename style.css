@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    text-align: justify;
+    font-size: 150%;
+}
+
+.pcontato {
+    background-color: rgba(58,58,58, 0.7);
+    border-radius:5px;
+    padding: 10px;
+    font-size: 120%;
+    text-align: center;
+}
+
+.img1 {
+    max-width: 100%;
+    height: auto;
+}
+
+.img2 {
+    width: 15px;
+    height: auto;
+}
+
+.img {
+    padding: 15px;
+    text-align: center;
+}
+
+a:link, a:visited {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 150%;
+}
+
+a:hover {
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+.cabecalho {
+    background-color: rgb(0,0,0);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    padding: 20px;
+}
+
+.principal {
+    overflow: auto;
+    margin: 10px;
+    /* background-color: rgb(58,58,58); */
+}
+
+.nav {
+    float:left;
+    width: 15%;
+    text-align: center;
+    padding: 12px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: rgba(58,58,58, 0.7);
+}
+
+.menu {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    display: block;
+    color: aliceblue;
+    background-color: rgb(58,58,58);
+}
+
+.menu2 {
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+    color: aliceblue;
+    font-size: 70%;
+    display: block;
+}
+
+.main {
+    float: left;
+    width: 85%;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aliceblue;
+}
+
+.main2 {
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+
+.rodape {
+    color: aliceblue;
+    background-color: rgb(0,0,0);
+    padding: 15px;
+    overflow: auto;
+}
+
+.rodape2 {
+    width: 33.33%;
+    float: left;
+    padding: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 850px) {
+    .nav, .main, .rodape2 {
+    width: 100%;
+    }
+}
